@@ -1,26 +1,25 @@
 import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css"
 import FunctionComponent from "./FunctionComponent";
 import girasol from '../img/girasol.png'
 export default function NavBar(){
 
     return(
-        <nav className="container">
+        
             <div className="divprincipal">
-                <ul>
-                <FunctionComponent/>
-                    <li>
-                    <a href="#"><p>Sobre Mi</p></a>
+                <ul className="ulNavbar">
+                    <FunctionComponent/>
+                    <li className="liNavbar">
+                    <a href="#"><p>SADBABE</p></a>
                     </li>
-                    <li>
-                        <a href="#"><p>Proyectos</p></a>
+                    <li className="liNavbar">
+                        <a href="#"><p>ALBUMS</p></a>
                     </li>
-                    <li>
-                    <a href="#"><p>Trayectoria</p></a>
+                    <li className="liNavbar">
+                    <a href="#"><p>FEATS</p></a>
                     </li>
-                    
-                </ul>
-                
+                </ul>                
             </div>
-        </nav>
+      
     )
 }
