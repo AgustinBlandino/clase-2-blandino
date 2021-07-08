@@ -8,11 +8,12 @@ nav.conteiner{
   width: 100%;
 }
 ul{
+  
  margin: 0px;
-  background-color: rgb(194, 223, 218);
+  background-color: rgb(0, 0, 0);
 }
 li{
-  background-color: rgb(194, 223, 218);
+  background-color: rgb(0, 0, 0);
   width: 150px;
  height: max-content;
   display: inline-block;
@@ -21,7 +22,7 @@ li{
   
 }
 li a{
-  color: #6b6b6b;
+  color: #ffffff;
   text-decoration: none;
   margin-right: 10px;  
 }
@@ -37,15 +38,17 @@ a{
   
 }
 p{
-  color: #000000;
+  color: #e6dbdb;
   text-align: center;
   margin-top: 30px;
 }
 
 img.logogirasol{
-  width: 30px;
+  width: 70px;
   display: inline;
- 
+  position: relative;
+  top: -15px;
+  right: 200px;
  
 }
 .App {

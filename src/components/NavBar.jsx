@@ -7,6 +7,7 @@ export default function NavBar(){
         <nav className="container">
             <div className="divprincipal">
                 <ul>
+                <FunctionComponent/>
                     <li>
                     <a href="#"><p>Sobre Mi</p></a>
                     </li>
@@ -16,7 +17,7 @@ export default function NavBar(){
                     <li>
                     <a href="#"><p>Trayectoria</p></a>
                     </li>
-                    <FunctionComponent/>
+                    
                 </ul>
                 
             </div>
