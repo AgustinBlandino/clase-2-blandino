@@ -1,22 +1,25 @@
 import React from "react";
-
+import FunctionComponent from "./FunctionComponent";
+import girasol from '../img/girasol.png'
 export default function NavBar(){
 
     return(
-        <div className="container">
+        <nav className="container">
             <div className="divprincipal">
-                <ul className="nb_routes flex flow-r">
-                    <li className="nb_route">
-                    <a href=""><p>Sobre Mi</p></a>
+                <ul>
+                    <li>
+                    <a href="#"><p>Sobre Mi</p></a>
                     </li>
-                    <li className="nb_route">
-                        <a href=""><p>Proyectos</p></a>
+                    <li>
+                        <a href="#"><p>Proyectos</p></a>
                     </li>
-                    <li className="nb_route">
-                    <a href=""><p>Trayectoria</p></a>
+                    <li>
+                    <a href="#"><p>Trayectoria</p></a>
                     </li>
+                    <FunctionComponent/>
                 </ul>
+                
             </div>
-        </div>
+        </nav>
     )
 }

@@ -1,34 +1,52 @@
-*{
-  border-color: red;
-  border: 10px;
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@700&display=swap');
+nav.conteiner{
+  background-color: #282c34;
 }
-div.divprincipal{
-  display: inline; 
+.divprincipal{
+  color: #282c34;
   width: 100%;
-  position: relative;
-  color: rgb(0, 0, 0); 
 }
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
+ul{
+ margin: 0px;
+  background-color: rgb(194, 223, 218);
 }
-
-li {
-  float: left;
+li{
+  background-color: rgb(194, 223, 218);
+  width: 150px;
+ height: max-content;
+  display: inline-block;
+  margin-right: 10px;
+  padding-top: 10px;
+  
 }
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 15px 175px;
+li a{
+  color: #6b6b6b;
   text-decoration: none;
+  margin-right: 10px;  
+}
+li a:hover{
+  color: #a00505;
+} 
+a{
+  text-decoration: none;
+  font-family: 'Crimson Text', serif;
+  color: black;
+  padding-top: 12px;
+  text-align: justify;
+  
+}
+p{
+  color: #000000;
+  text-align: center;
+  margin-top: 30px;
 }
 
-li a:hover {
-  background-color: #111;
+img.logogirasol{
+  width: 30px;
+  display: inline;
+ 
+ 
 }
 .App {
   text-align: center;
