@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@700&display=swap');
 .divprincipal{
   color: #000000;
@@ -58,6 +59,51 @@ img.logogirasol{
   position: relative;
   left: 550px;
 }
+
+div.productos{
+  position: relative;
+  top:100px;
+  width: 500px;
+  background-color: #ffffff;
+}
+h3.titulo{
+  text-align: center;
+  font-size: medium;
+  font-family: 'Heebo', sans-serif;
+}
+p.precio{
+  position: relative;
+  top: 10px;
+  color: #282c34;
+  font-family: 'Times New Roman', Times, serif;
+}
+img.imagenproducto{
+  position: relative;
+}
+button.btnproductos{
+  border: none;
+  width: 30px;
+  height: 30px;
+  background-color:white ;
+}
+button.carrito{
+  position: relative;
+  width: 230px;
+  top:34px;
+  left:-240px;
+  background-color: #000000;
+  color: #e6dbdb;
+  border: none;
+  font-family: 'Heebo', sans-serif;
+
+}
+form{
+  position: relative;
+  left: 120px;
+}
+
+
+
 .App {
   text-align: center;
 }
