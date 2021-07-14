@@ -10,7 +10,7 @@ export default function NavBar(){
                 <ul className="ulNavbar">
                     <FunctionComponent/>
                     <li className="liNavbar">
-                    <a href="#"><p>SADBABE</p></a>
+                    <a href="#"><p></p></a>
                     </li>
                     <li className="liNavbar">
                         <a href="#"><p>ALBUMS</p></a>

@@ -5,6 +5,24 @@ import { useState } from 'react';
 export default function Products(props){
 
     const [qty,setQTY] = useState(1);
+    const stock = "5"
+    
+    function controloStock(){
+         if(qty<1){
+            alert("No se puede elegir menos de un producto!")
+         }
+         else{
+            setQTY(qty-1) 
+         }
+        }
+        function controlStock(){
+            if(qty>stock){
+               alert("Limite de productos por falta de stock!")
+            }
+            else{
+               setQTY(qty+1) 
+            }
+           }
 
     return(
         <div className="productos">
@@ -19,13 +37,14 @@ export default function Products(props){
             </div>
             <div className="btnmas">
                 <form onSubmit={(data)=>{props.addToCart(data,props)}}>
-                    <button type='button' className="btnproductos" onClick={()=>{setQTY(qty+1)}}>+</button>
+                    <button type='button' className="btnproductos" onClick={controlStock}>+</button>
                     <input type="number" disabled value={qty}/>
-                    <button type='button' className="btnproductos" onClick={()=>{setQTY(qty-1)}}>-</button>
+                    <button type='button' className="btnproductos" onClick={controloStock}>-</button>
                     <button type="submit" className="carrito">CARRITO</button>
                 </form>
             </div>
-            
         </div>
     )
+
+  
 }
